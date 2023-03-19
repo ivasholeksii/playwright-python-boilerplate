@@ -27,6 +27,8 @@ Install the Playwright browser binaries: `playwright install`
 
 To run the entire test suite, execute the following command: `pytest`
 
+To run tests with the html report execute: `pytest tests/ --html-report=./report.html`
+
 For more options and configurations, refer to the `pytest.ini` file in the project's root directory.
 
 ## License
